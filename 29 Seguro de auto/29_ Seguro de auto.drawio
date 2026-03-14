@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Seguro Auto" id="_iNdL_TROoio06cI2d_W">
+    <mxGraphModel dx="586" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9mSgBw0mq93HIufjZnmE-20" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Inicio" vertex="1">
+          <mxGeometry height="60" width="120" x="1680" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-19" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prima = 500000" vertex="1">
+          <mxGeometry height="60" width="160" x="1660" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-18" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-3" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Leer edad, antigVehiculo, accidentes" vertex="1">
+          <mxGeometry height="60" width="220" x="1630" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-16" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-17" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿edad &lt; 25?" vertex="1">
+          <mxGeometry height="80" width="140" x="1670" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prima = prima + prima * 0.50" vertex="1">
+          <mxGeometry height="60" width="200" x="1850" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-14" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-15" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿antigVehiculo &gt; 10?" vertex="1">
+          <mxGeometry height="80" width="160" x="1670" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prima = prima + prima * 0.30" vertex="1">
+          <mxGeometry height="60" width="200" x="1860" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-12" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-13" edge="1" parent="1" source="9mSgBw0mq93HIufjZnmE-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="9mSgBw0mq93HIufjZnmE-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿accidentes?" vertex="1">
+          <mxGeometry height="80" width="140" x="1680" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prima = prima + prima * 0.40" vertex="1">
+          <mxGeometry height="60" width="200" x="1850" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-10" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Mostrar prima final" vertex="1">
+          <mxGeometry height="60" width="180" x="1660" y="1970" as="geometry" />
+        </mxCell>
+        <mxCell id="9mSgBw0mq93HIufjZnmE-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fin" vertex="1">
+          <mxGeometry height="60" width="120" x="1680" y="2070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
